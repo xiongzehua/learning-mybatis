@@ -1,4 +1,4 @@
-package com.xiongzehua.pojo;
+package com.xiongzehua.learning.mybatis.pojo;
 
 /**
  * Created by 31339 on 2018/5/12.

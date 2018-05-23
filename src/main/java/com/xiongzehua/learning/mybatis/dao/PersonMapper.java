@@ -1,6 +1,6 @@
-package com.xiongzehua.dao;
+package com.xiongzehua.learning.mybatis.dao;
 
-import com.xiongzehua.pojo.Person;
+import com.xiongzehua.learning.mybatis.pojo.Person;
 
 /**
  * Created by 31339 on 2018/5/23.

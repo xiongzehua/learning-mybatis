@@ -1,7 +1,7 @@
-package com.xiongzehua;
+package com.xiongzehua.learning.mybatis;
 
-import com.xiongzehua.dao.PersonMapper;
-import com.xiongzehua.pojo.Person;
+import com.xiongzehua.learning.mybatis.dao.PersonMapper;
+import com.xiongzehua.learning.mybatis.pojo.Person;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -10,8 +10,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
-
-import javax.sql.DataSource;
 
 /**
  * Created by 31339 on 2018/5/11.

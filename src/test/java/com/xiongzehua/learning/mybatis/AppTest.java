@@ -1,4 +1,4 @@
-package com.xiongzehua;
+package com.xiongzehua.learning.mybatis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

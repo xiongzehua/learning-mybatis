@@ -1,4 +1,4 @@
-package com.xiongzehua.pojo;
+package com.xiongzehua.learning.mybatis.pojo;
 
 import java.util.List;
 
