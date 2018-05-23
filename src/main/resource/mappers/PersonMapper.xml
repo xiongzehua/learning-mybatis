@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiongzehua.dao.PersonMapper">
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.xiongzehua.pojo.Person">
+        mybatis有自动映射的机制，
+        select person_name as name, person_age as age from persons where person_id = #{id}
+    </select>
+</mapper>
